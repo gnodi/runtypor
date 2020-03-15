@@ -1,0 +1,18 @@
+# VS Code
+.vscode
+.history
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build
+dist/
+
+# Debug
+debug/
+npm-debug.log
+
+# Testing
+coverage/
+.test*/
