@@ -3,7 +3,7 @@ import Ajv from 'ajv';
 
 class RuntypeError extends Error {
   constructor(message: string) {
-    super(`[runtyper] ${message}`);
+    super(`[runtypor] ${message}`);
   }
 }
 

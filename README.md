@@ -1,4 +1,4 @@
-# runtyper
+# runtypor
 Battle-tested runtime type checker for Typescript using JSON Schema type guards.
 
 [![Build][build-image]][build-url]
@@ -18,7 +18,7 @@ Battle-tested runtime type checker for Typescript using JSON Schema type guards.
 ## Installation
 All you have to do is installing the package:
 ```sh
-$ npm i runtyper
+$ npm i runtypor
 ```
 
 ## Use
@@ -108,15 +108,15 @@ You must keep test coverage at 100%.
 ## License
 [MIT](LICENSE)
 
-[build-image]: https://img.shields.io/travis/gnodi/runtyper.svg?style=flat
-[build-url]: https://travis-ci.org/gnodi/runtyper
-[coverage-image]:https://coveralls.io/repos/github/gnodi/runtyper/badge.svg?branch=master
-[coverage-url]:https://coveralls.io/github/gnodi/runtyper?branch=master
-[version-image]: https://img.shields.io/npm/v/runtyper.svg?style=flat
-[version-url]: https://npmjs.org/package/runtyper
-[downloads-image]: https://img.shields.io/npm/dm/runtyper.svg?style=flat
-[downloads-url]: https://npmjs.org/package/runtyper
-[dependencies-image]: https://david-dm.org/gnodi/runtyper.svg
-[dependencies-url]: https://david-dm.org/gnodi/runtyper
-[dev-dependencies-image]: https://david-dm.org/gnodi/runtyper/dev-status.svg
-[dev-dependencies-url]: https://david-dm.org/gnodi/runtyper#info=devDependencies
+[build-image]: https://img.shields.io/travis/gnodi/runtypor.svg?style=flat
+[build-url]: https://travis-ci.org/gnodi/runtypor
+[coverage-image]:https://coveralls.io/repos/github/gnodi/runtypor/badge.svg?branch=master
+[coverage-url]:https://coveralls.io/github/gnodi/runtypor?branch=master
+[version-image]: https://img.shields.io/npm/v/runtypor.svg?style=flat
+[version-url]: https://npmjs.org/package/runtypor
+[downloads-image]: https://img.shields.io/npm/dm/runtypor.svg?style=flat
+[downloads-url]: https://npmjs.org/package/runtypor
+[dependencies-image]: https://david-dm.org/gnodi/runtypor.svg
+[dependencies-url]: https://david-dm.org/gnodi/runtypor
+[dev-dependencies-image]: https://david-dm.org/gnodi/runtypor/dev-status.svg
+[dev-dependencies-url]: https://david-dm.org/gnodi/runtypor#info=devDependencies

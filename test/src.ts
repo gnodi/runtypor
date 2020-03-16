@@ -28,7 +28,7 @@ const validationSchema = {
   required: ['brand', 'model'],
 };
 
-describe('Runtyper', () => {
+describe('Runtypor', () => {
   test('should validate type of given argument from a JSON schema', () => {
     const runtype = createRuntype<Car>(validationSchema);
 

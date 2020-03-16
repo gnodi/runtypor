@@ -1,5 +1,5 @@
 {
-  "name": "runtyper",
+  "name": "runtypor",
   "version": "0.1.0",
   "description": "Battle-tested runtime type checker for Typescript using JSON Schema type guards",
   "main": "dist/index.js",
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gnodi/runtyper"
+    "url": "https://github.com/gnodi/runtypor"
   },
   "keywords": [
     "runtime",
