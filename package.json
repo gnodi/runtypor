@@ -1,6 +1,6 @@
 {
   "name": "runtypor",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Battle-tested runtime type checker for Typescript using JSON Schema type guards",
   "main": "dist/index.js",
   "typings": "src/index.d.ts",
