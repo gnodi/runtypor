@@ -25,6 +25,7 @@ $ npm i runtypor
 Here is a simple example of request input validation with Express:
 ```ts
 import express from 'express';
+import { createRuntype } from '../src/index';
 
 type Car = {
   brand: string;
@@ -80,6 +81,17 @@ app.post('/car-purchase', (req: express.Request, res: express.Response): void =>
 ```
 
 Note that you should only use the validated value when your data has a simple JSON structure, as it won't replicate prototypal chain or functions for instance.
+
+Do you prefer object notation over functional one ? Use the class instantiation:
+```ts
+import { createRuntype, Runtype } from '../src/index';
+
+// ...
+
+createRuntype<Car>(validationSchema);
+// is equivalent to
+new Runtype<Car>(validationSchema);
+```
 
 ## Testing
 Many `npm` scripts are available to help testing:
