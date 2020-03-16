@@ -13,10 +13,12 @@
     "test": "jest --verbose -c=jest.config.js",
     "pretest-coverage": "npm run pretest",
     "test-coverage": "jest -c=jest.config.js --collect-coverage --collect-coverage-from=src/**/*.ts --collect-coverage-from=!src/**/*.d.ts",
+    "test-coveralls": "jest -c=jest.config.js --collect-coverage --collect-coverage-from=src/**/*.ts --collect-coverage-from=!src/**/*.d.ts && cat ./coverage/lcov.info | coveralls",
     "pretest-watch": "npm run pretest",
     "test-watch": "jest -c=jest.config.js --watch",
     "tsc": "tsc --noEmit",
     "check": "npm run lint && npm run tsc && npm run test-coverage",
+    "check-ci": "npm run lint && npm run tsc && npm run test-coveralls",
     "preversion": "npm run check",
     "postversion": "git push && git push --tags",
     "prepublishOnly": "npm run check && npm run build"
