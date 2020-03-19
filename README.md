@@ -35,6 +35,8 @@ type Car = {
   price: number;
 }
 
+// JSON Schema from ajv
+// @see https://github.com/epoberezkin/ajv#getting-started
 const validationSchema = {
   type: 'object',
   properties: {
